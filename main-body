@@ -1,7 +1,9 @@
 full_Equation = input("put 2 number equation here: ")
 split_equation = full_Equation.split()
-print(split_equation)
 
+firstnum = split_equation[0]
+equation = split_equation[1]
+secondnum = split_equation[2]
 
 firstnum = int(firstnum)
 secondnum = int(secondnum)
