@@ -1,0 +1,24 @@
+full_Equation = input("put 2 number equation here: ")
+split_equation = full_Equation.split()
+print(split_equation)
+
+
+firstnum = int(firstnum)
+secondnum = int(secondnum)
+
+print(firstnum)
+print(equation)
+print(secondnum)
+print("=")
+
+if equation == "*" or "X" or "x":
+   print(firstnum * secondnum)
+
+if equation == "/":
+   print(firstnum / secondnum)
+
+if equation == "+":
+   print(firstnum * secondnum)
+
+if equation == "-":
+   print(firstnum * secondnum)
